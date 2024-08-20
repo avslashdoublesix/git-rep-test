@@ -1,0 +1,9 @@
+#!/bin/bash
+size_sort()
+{
+for file in PATH=$PWD
+do
+du -hs * | sort -hr
+done
+}
+size_sort
